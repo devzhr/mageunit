@@ -1,5 +1,5 @@
 {
-  "name": "zouhair2015/mageunit1.9.4",
+  "name": "zouhair2015/mageunit",
   "type": "magento-library",
   "description": "Simple unit testing framework for Magento 1.x",
   "keywords": [
@@ -7,7 +7,7 @@
     "magento",
     "test"
   ],
-  "homepage": "https://github.com/zouhair2015/mageunit1.9.4",
+  "homepage": "https://github.com/zouhair2015/mageunit",
   "license": "MIT",
   "authors": [
     {

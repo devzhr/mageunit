@@ -6,11 +6,11 @@ MageUnit aims to be a simple unit testing framework for Magento 1.x.
 
 **Latest Release**
 
-[![Build Status](https://travis-ci.org/zouhair2015/mageunit1.9.4.svg?branch=master)](https://travis-ci.org/zouhair2015/mageunit1.9.4)
+[![Build Status](https://travis-ci.org/zouhair2015/mageunit.svg?branch=master)](https://travis-ci.org/zouhair2015/mageunit)
 
 **Development branch**
 
-[![Build Status](https://travis-ci.org/zouhair2015/mageunit1.9.4.svg?branch=devel)](https://travis-ci.org/zouhair2015/mageunit1.9.4)
+[![Build Status](https://travis-ci.org/zouhair2015/mageunit.svg?branch=devel)](https://travis-ci.org/zouhair2015/mageunit)
 
 ## Requirements
 
@@ -28,11 +28,11 @@ Create a composer.json file in your project's root directory having at least fol
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/zouhair2015/mageunit1.9.4"
+            "url": "https://github.com/zouhair2015/mageunit"
         }
     ],
     "require": {
-        "zouhair2015/mageunit1.9.4": "dev-master"
+        "zouhair2015/mageunit": "dev-master"
     }
 }
 ```
