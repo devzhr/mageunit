@@ -1,17 +1,17 @@
 <?php
-class MageUnit_Framework_TestListener extends PHPUnit_Framework_BaseTestListener
+class MageUnit_Framework_TestListener extends \PHPUnit\Framework\BaseTestListener
 {
     /**
-     * @var PHPUnit_Framework_TestSuite|null
+     * @var PHPUnit\Framework\TestSuite|null
      */
     protected $_testSuiteRoot;
 
     /**
      * Initialize test environment
      *
-     * @param PHPUnit_Framework_TestSuite $suite
+     * @param PHPUnit\Framework\TestSuite $suite
      */
-    public function startTestSuite(PHPUnit_Framework_TestSuite $suite)
+    public function startTestSuite(PHPUnit\Framework\TestSuite $suite)
     {
         //Ensures initialization runs only once in a test suite
         if ($this->_testSuiteRoot === null) {
@@ -32,9 +32,9 @@ class MageUnit_Framework_TestListener extends PHPUnit_Framework_BaseTestListener
     /**
      * Terminate test suite
      *
-     * @param PHPUnit_Framework_TestSuite $suite
+     * @param PHPUnit\Framework\TestSuite $suite
      */
-    public function endTestSuite(PHPUnit_Framework_TestSuite $suite)
+    public function endTestSuite(PHPUnit\Framework\TestSuite $suite)
     {
         /**
          * @var MageUnit_Mock_Core_Model_App $app
@@ -55,4 +55,4 @@ class MageUnit_Framework_TestListener extends PHPUnit_Framework_BaseTestListener
         $layout = $app->getLayout();
         $layout->resetBlockMocks();
     }
-}
+ }

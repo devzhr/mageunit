@@ -1,5 +1,5 @@
 <?php
-class MageUnit_LayoutTest extends PHPUnit_Framework_TestCase
+class MageUnit_LayoutTest extends \PHPUnit\Framework\TestCase
 {
     protected function tearDown()
     {

@@ -1,5 +1,5 @@
 <?php
-class MageUnit_AppTest extends PHPUnit_Framework_TestCase
+class MageUnit_AppTest extends \PHPUnit\Framework\TestCase
 {
     public function testAppHasBeenMocked()
     {

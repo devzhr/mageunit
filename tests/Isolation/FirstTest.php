@@ -1,5 +1,5 @@
 <?php
-class MageUnit_FirstTest extends PHPUnit_Framework_TestCase
+class MageUnit_FirstTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var MageUnit_Framework_TestCase

@@ -1,5 +1,5 @@
 <?php
-class MageUnit_ConfigTest extends PHPUnit_Framework_TestCase
+class MageUnit_ConfigTest extends \PHPUnit\Framework\TestCase
 {
     protected function tearDown()
     {

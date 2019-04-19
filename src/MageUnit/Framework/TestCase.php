@@ -1,5 +1,5 @@
 <?php
-class MageUnit_Framework_TestCase extends PHPUnit_Framework_TestCase
+class MageUnit_Framework_TestCase extends \PHPUnit\Framework\TestCase
 {
     /**
      * Returns application mock
