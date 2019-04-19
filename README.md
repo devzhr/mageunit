@@ -36,6 +36,26 @@ Create a composer.json file in your project's root directory having at least fol
     }
 }
 ```
+or this code if you do not have phpunit on your computer
+```js
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/zouhair2015/mageunit"
+        }
+    ],
+    "require": {
+        "zouhair2015/mageunit": "dev-master",
+        "phpunit/phpunit": "^6"
+    }
+}
+```
+command :
+```js
+vendor/bin/phpunit lib/mageunit/tests
+
+```
 
 By default, this will install MageUnit in Magento's lib folder.
 
