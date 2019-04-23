@@ -14,9 +14,9 @@ MageUnit aims to be a simple unit testing framework for Magento 1.x.
 
 ## Requirements
 
-- PHP 5.3, 5.4, 5.5
+- PHP 5.3, 5.4, 5.5 ,7.0 ,7.1 ,7.2
 - Magento 1.4.x to 1.9.x
-- PHPUnit 4.x
+- PHPUnit 6.x
 
 ## Usage
 
