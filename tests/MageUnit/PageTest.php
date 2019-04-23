@@ -2,7 +2,7 @@
 /**
  * Test of class Mage_Cms_Helper_Page
  */
-class Mage_Cms_Helper_PageTest extends MageUnit_Framework_TestCase
+class Mage_Cms_Helper_PageTest extends \MageUnit\Framework\TestCase
 {
     /**
      * @var Mage_Cms_Helper_Page
